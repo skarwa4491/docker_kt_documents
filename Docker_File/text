@@ -1,0 +1,2 @@
+Docker container ip --format ‘{{.NetworkSettings.IPAddress}}’ [container_name | container_id]
+
