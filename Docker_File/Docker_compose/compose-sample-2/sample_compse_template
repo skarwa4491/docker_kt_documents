@@ -1,0 +1,13 @@
+version: 3.1
+
+service: #containers same as docker run
+    servicename: #a friendly name also considered as DNS name inside network
+        image: #optional if we use build
+        command: #optional replace the default CMD provided in docker file
+        enviornment: #optional same as -e which provides envirnment variables
+        volumes: #optional same as -v
+        
+     servicename2:
+volumes:
+
+networks: 
